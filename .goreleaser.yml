@@ -1,18 +1,17 @@
 version: 2
 project_name: zcode
-before:
-  hooks:
 builds:
   - env:
       - CGO_ENABLED=0
     goos:
       - linux
       - darwin
+      - windows
     goarch:
       - amd64
       - arm64
     ldflags:
-      - -s -w -X github.com/zcode-ai/zcode/internal/version.Version={{.Version}}
+      - -s -w -X github.com/tkjij77-ctrl/ZCode/internal/version.Version={{.Version}}
     main: ./main.go
 
 archives:
@@ -25,7 +24,6 @@ archives:
       {{- if eq .Arch "amd64" }}x86_64
       {{- else if eq .Arch "#86" }}i386
       {{- else }}{{ .Arch }}{{ end }}
-      {{- if .Arm }}v{{ .Arm }}{{ end }}
     format_overrides:
       - goos: windows
         format: zip
@@ -33,44 +31,11 @@ checksum:
   name_template: "checksums.txt"
 snapshot:
   name_template: "0.0.0-{{ .Timestamp }}"
-aurs:
-  - name: zcode-ai
-    homepage: "https://github.com/zcode-ai/zcode"
-    description: "terminal based agent that can build anything"
-    maintainers:
-      - "kujtimiihoxha <kujtimii.h@gmail.com>"
-    license: "MIT"
-    private_key: "{{ .Env.AUR_KEY }}"
-    git_url: "ssh://aur@aur.archlinux.org/zcode-ai-bin.git"
-    provides:
-      - zcode
-    conflicts:
-      - zcode
-    package: |-
-      install -Dm755 ./zcode "${pkgdir}/usr/bin/zcode"
-brews:
-  - repository:
-      owner: zcode-ai
-      name: homebrew-tap
-nfpms:
-  - maintainer: kujtimiihoxha
-    description: terminal based agent that can build anything
-    formats:
-      - deb
-      - rpm
-    file_name_template: >-
-      {{ .ProjectName }}-
-      {{- if eq .Os "darwin" }}mac
-      {{- else }}{{ .Os }}{{ end }}-{{ .Arch }}
 
 changelog:
   sort: asc
   filters:
     exclude:
       - "^docs:"
-      - "^doc:"
       - "^test:"
       - "^ci:"
-      - "^ignore:"
-      - "^example:"
-      - "^wip:"
