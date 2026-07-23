@@ -9,10 +9,10 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/logging"
-	"github.com/zcode-ai/zcode/internal/tui/layout"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/layout"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
 )
 
 type DetailComponent interface {

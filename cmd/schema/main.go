@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/models"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/models"
 )
 
 // JSONSchemaType represents a JSON Schema type

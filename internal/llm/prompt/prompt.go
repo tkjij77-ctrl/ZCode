@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/models"
-	"github.com/zcode-ai/zcode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/models"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
 )
 
 func GetAgentPrompt(agentName config.AgentName, provider models.ModelProvider) string {

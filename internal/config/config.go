@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/zcode-ai/zcode/internal/llm/models"
-	"github.com/zcode-ai/zcode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/models"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
 	"github.com/spf13/viper"
 )
 

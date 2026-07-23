@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
 )
 
 type PersistentShell struct {

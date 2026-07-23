@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/zcode-ai/zcode/internal/lsp/protocol"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp/protocol"
 )
 
 func applyTextEdits(uri protocol.DocumentUri, edits []protocol.TextEdit) error {

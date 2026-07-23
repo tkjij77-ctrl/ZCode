@@ -4,7 +4,7 @@ package lsp
 import (
 	"context"
 
-	"github.com/zcode-ai/zcode/internal/lsp/protocol"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp/protocol"
 )
 
 // Implementation sends a textDocument/implementation request to the LSP server.

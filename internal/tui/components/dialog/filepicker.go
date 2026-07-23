@@ -14,14 +14,14 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/app"
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/logging"
-	"github.com/zcode-ai/zcode/internal/message"
-	"github.com/zcode-ai/zcode/internal/tui/image"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
-	"github.com/zcode-ai/zcode/internal/tui/util"
+	"github.com/tkjij77-ctrl/ZCode/internal/app"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/message"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/image"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/util"
 )
 
 const (

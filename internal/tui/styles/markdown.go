@@ -4,7 +4,7 @@ import (
 	"github.com/charmbracelet/glamour"
 	"github.com/charmbracelet/glamour/ansi"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
 )
 
 const defaultMargin = 1

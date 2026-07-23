@@ -8,13 +8,13 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/diff"
-	"github.com/zcode-ai/zcode/internal/llm/tools"
-	"github.com/zcode-ai/zcode/internal/permission"
-	"github.com/zcode-ai/zcode/internal/tui/layout"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
-	"github.com/zcode-ai/zcode/internal/tui/util"
+	"github.com/tkjij77-ctrl/ZCode/internal/diff"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/tools"
+	"github.com/tkjij77-ctrl/ZCode/internal/permission"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/layout"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/util"
 )
 
 type PermissionAction string

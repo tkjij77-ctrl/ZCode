@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/logging"
-	"github.com/zcode-ai/zcode/internal/lsp"
-	"github.com/zcode-ai/zcode/internal/lsp/watcher"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp/watcher"
 )
 
 func (app *App) initLSPClients(ctx context.Context) {

@@ -3,10 +3,10 @@ package lsp
 import (
 	"encoding/json"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/logging"
-	"github.com/zcode-ai/zcode/internal/lsp/protocol"
-	"github.com/zcode-ai/zcode/internal/lsp/util"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp/protocol"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp/util"
 )
 
 // Requests

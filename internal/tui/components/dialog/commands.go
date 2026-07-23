@@ -4,11 +4,11 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	utilComponents "github.com/zcode-ai/zcode/internal/tui/components/util"
-	"github.com/zcode-ai/zcode/internal/tui/layout"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
-	"github.com/zcode-ai/zcode/internal/tui/util"
+	utilComponents "github.com/tkjij77-ctrl/ZCode/internal/tui/components/util"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/layout"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/util"
 )
 
 // Command represents a command that can be executed

@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/tools"
-	"github.com/zcode-ai/zcode/internal/logging"
-	"github.com/zcode-ai/zcode/internal/permission"
-	"github.com/zcode-ai/zcode/internal/version"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/tools"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/permission"
+	"github.com/tkjij77-ctrl/ZCode/internal/version"
 
 	"github.com/mark3labs/mcp-go/client"
 	"github.com/mark3labs/mcp-go/mcp"

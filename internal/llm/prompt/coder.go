@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/models"
-	"github.com/zcode-ai/zcode/internal/llm/tools"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/models"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/tools"
 )
 
 func CoderPrompt(provider models.ModelProvider) string {

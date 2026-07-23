@@ -1,6 +1,6 @@
 package prompt
 
-import "github.com/zcode-ai/zcode/internal/llm/models"
+import "github.com/tkjij77-ctrl/ZCode/internal/llm/models"
 
 func TitlePrompt(_ models.ModelProvider) string {
 	return `you will generate a short title based on the first message a user begins a conversation with

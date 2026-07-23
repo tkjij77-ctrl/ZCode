@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/tools/shell"
-	"github.com/zcode-ai/zcode/internal/permission"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/tools/shell"
+	"github.com/tkjij77-ctrl/ZCode/internal/permission"
 )
 
 type BashParams struct {

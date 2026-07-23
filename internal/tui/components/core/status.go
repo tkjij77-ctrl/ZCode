@@ -7,16 +7,16 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/models"
-	"github.com/zcode-ai/zcode/internal/lsp"
-	"github.com/zcode-ai/zcode/internal/lsp/protocol"
-	"github.com/zcode-ai/zcode/internal/pubsub"
-	"github.com/zcode-ai/zcode/internal/session"
-	"github.com/zcode-ai/zcode/internal/tui/components/chat"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
-	"github.com/zcode-ai/zcode/internal/tui/util"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/models"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp/protocol"
+	"github.com/tkjij77-ctrl/ZCode/internal/pubsub"
+	"github.com/tkjij77-ctrl/ZCode/internal/session"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/components/chat"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/util"
 )
 
 type StatusCmp interface {

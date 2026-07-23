@@ -10,14 +10,14 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/app"
-	"github.com/zcode-ai/zcode/internal/message"
-	"github.com/zcode-ai/zcode/internal/pubsub"
-	"github.com/zcode-ai/zcode/internal/session"
-	"github.com/zcode-ai/zcode/internal/tui/components/dialog"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
-	"github.com/zcode-ai/zcode/internal/tui/util"
+	"github.com/tkjij77-ctrl/ZCode/internal/app"
+	"github.com/tkjij77-ctrl/ZCode/internal/message"
+	"github.com/tkjij77-ctrl/ZCode/internal/pubsub"
+	"github.com/tkjij77-ctrl/ZCode/internal/session"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/components/dialog"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/util"
 )
 
 type cacheItem struct {

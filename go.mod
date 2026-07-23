@@ -1,4 +1,4 @@
-module github.com/zcode-ai/zcode
+module github.com/tkjij77-ctrl/ZCode
 
 go 1.24.0
 

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zcode-ai/zcode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
 )
 
 type LSParams struct {

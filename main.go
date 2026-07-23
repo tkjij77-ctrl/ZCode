@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/zcode-ai/zcode/cmd"
-	"github.com/zcode-ai/zcode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/cmd"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
 )
 
 func main() {

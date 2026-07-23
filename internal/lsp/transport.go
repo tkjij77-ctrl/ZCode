@@ -8,8 +8,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
 )
 
 // Write writes an LSP message to the given writer

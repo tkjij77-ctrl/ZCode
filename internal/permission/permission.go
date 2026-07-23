@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/pubsub"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/pubsub"
 )
 
 var ErrorPermissionDenied = errors.New("permission denied")

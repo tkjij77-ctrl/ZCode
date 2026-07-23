@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/tools"
-	"github.com/zcode-ai/zcode/internal/lsp"
-	"github.com/zcode-ai/zcode/internal/message"
-	"github.com/zcode-ai/zcode/internal/session"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/tools"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp"
+	"github.com/tkjij77-ctrl/ZCode/internal/message"
+	"github.com/tkjij77-ctrl/ZCode/internal/session"
 )
 
 type agentTool struct {

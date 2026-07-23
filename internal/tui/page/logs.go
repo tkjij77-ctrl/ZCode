@@ -4,9 +4,9 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/tui/components/logs"
-	"github.com/zcode-ai/zcode/internal/tui/layout"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/components/logs"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/layout"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
 )
 
 var LogsPage PageID = "logs"

@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/fileutil"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/fileutil"
 )
 
 type GrepParams struct {

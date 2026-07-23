@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/alecthomas/chroma/v2/styles"
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
 )
 
 // Manager handles theme registration, selection, and retrieval.

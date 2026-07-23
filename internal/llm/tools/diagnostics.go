@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/lsp"
-	"github.com/zcode-ai/zcode/internal/lsp/protocol"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp/protocol"
 )
 
 type DiagnosticsParams struct {

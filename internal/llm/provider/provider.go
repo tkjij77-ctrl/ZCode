@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zcode-ai/zcode/internal/llm/models"
-	"github.com/zcode-ai/zcode/internal/llm/tools"
-	"github.com/zcode-ai/zcode/internal/message"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/models"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/tools"
+	"github.com/tkjij77-ctrl/ZCode/internal/message"
 )
 
 type EventType string

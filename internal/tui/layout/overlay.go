@@ -8,9 +8,9 @@ import (
 	"github.com/muesli/ansi"
 	"github.com/muesli/reflow/truncate"
 	"github.com/muesli/termenv"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
-	"github.com/zcode-ai/zcode/internal/tui/util"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/util"
 )
 
 // Most of this code is borrowed from

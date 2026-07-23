@@ -8,13 +8,13 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/diff"
-	"github.com/zcode-ai/zcode/internal/history"
-	"github.com/zcode-ai/zcode/internal/pubsub"
-	"github.com/zcode-ai/zcode/internal/session"
-	"github.com/zcode-ai/zcode/internal/tui/styles"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/diff"
+	"github.com/tkjij77-ctrl/ZCode/internal/history"
+	"github.com/tkjij77-ctrl/ZCode/internal/pubsub"
+	"github.com/tkjij77-ctrl/ZCode/internal/session"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/styles"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
 )
 
 type sidebarCmp struct {

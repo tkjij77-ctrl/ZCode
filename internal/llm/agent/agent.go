@@ -8,16 +8,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/llm/models"
-	"github.com/zcode-ai/zcode/internal/llm/prompt"
-	"github.com/zcode-ai/zcode/internal/llm/provider"
-	"github.com/zcode-ai/zcode/internal/llm/tools"
-	"github.com/zcode-ai/zcode/internal/logging"
-	"github.com/zcode-ai/zcode/internal/message"
-	"github.com/zcode-ai/zcode/internal/permission"
-	"github.com/zcode-ai/zcode/internal/pubsub"
-	"github.com/zcode-ai/zcode/internal/session"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/models"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/prompt"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/provider"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/tools"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/message"
+	"github.com/tkjij77-ctrl/ZCode/internal/permission"
+	"github.com/tkjij77-ctrl/ZCode/internal/pubsub"
+	"github.com/tkjij77-ctrl/ZCode/internal/session"
 )
 
 // Common errors

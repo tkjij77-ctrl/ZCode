@@ -9,17 +9,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zcode-ai/zcode/internal/config"
-	"github.com/zcode-ai/zcode/internal/db"
-	"github.com/zcode-ai/zcode/internal/format"
-	"github.com/zcode-ai/zcode/internal/history"
-	"github.com/zcode-ai/zcode/internal/llm/agent"
-	"github.com/zcode-ai/zcode/internal/logging"
-	"github.com/zcode-ai/zcode/internal/lsp"
-	"github.com/zcode-ai/zcode/internal/message"
-	"github.com/zcode-ai/zcode/internal/permission"
-	"github.com/zcode-ai/zcode/internal/session"
-	"github.com/zcode-ai/zcode/internal/tui/theme"
+	"github.com/tkjij77-ctrl/ZCode/internal/config"
+	"github.com/tkjij77-ctrl/ZCode/internal/db"
+	"github.com/tkjij77-ctrl/ZCode/internal/format"
+	"github.com/tkjij77-ctrl/ZCode/internal/history"
+	"github.com/tkjij77-ctrl/ZCode/internal/llm/agent"
+	"github.com/tkjij77-ctrl/ZCode/internal/logging"
+	"github.com/tkjij77-ctrl/ZCode/internal/lsp"
+	"github.com/tkjij77-ctrl/ZCode/internal/message"
+	"github.com/tkjij77-ctrl/ZCode/internal/permission"
+	"github.com/tkjij77-ctrl/ZCode/internal/session"
+	"github.com/tkjij77-ctrl/ZCode/internal/tui/theme"
 )
 
 type App struct {
