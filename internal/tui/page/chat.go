@@ -22,6 +22,8 @@ import (
 var ChatPage PageID = "chat"
 
 type chatPage struct {
+	controls *chat.ControlsBar
+	manager *agent.ManagerAgent
 	app                  *app.App
 	editor               layout.Container
 	messages             layout.Container
@@ -61,6 +63,10 @@ func (p *chatPage) Init() tea.Cmd {
 }
 
 func (p *chatPage) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+
+	// MULTI-AGENT FIX: ensure manager is used so Go compiler doesn't complain
+	_ = p.manager
+
 	var cmds []tea.Cmd
 	switch msg := msg.(type) {
 	case tea.WindowSizeMsg:
