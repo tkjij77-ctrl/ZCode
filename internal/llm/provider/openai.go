@@ -11,11 +11,11 @@ import (
 	"github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"
 	"github.com/openai/openai-go/shared"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/message"
+	"github.com/zcode-ai/zcode/internal/config"
+	"github.com/zcode-ai/zcode/internal/llm/models"
+	"github.com/zcode-ai/zcode/internal/llm/tools"
+	"github.com/zcode-ai/zcode/internal/logging"
+	"github.com/zcode-ai/zcode/internal/message"
 )
 
 type openaiOptions struct {

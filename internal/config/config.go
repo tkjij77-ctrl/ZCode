@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/logging"
+	"github.com/zcode-ai/zcode/internal/llm/models"
+	"github.com/zcode-ai/zcode/internal/logging"
 	"github.com/spf13/viper"
 )
 
@@ -98,9 +98,9 @@ type Config struct {
 
 // Application constants
 const (
-	defaultDataDirectory = ".opencode"
+	defaultDataDirectory = ".zcode"
 	defaultLogLevel      = "info"
-	appName              = "opencode"
+	appName              = "zcode"
 
 	MaxTokensFallbackDefault = 4096
 )
@@ -111,12 +111,12 @@ var defaultContextPaths = []string{
 	".cursor/rules/",
 	"CLAUDE.md",
 	"CLAUDE.local.md",
-	"opencode.md",
-	"opencode.local.md",
-	"OpenCode.md",
-	"OpenCode.local.md",
-	"OPENCODE.md",
-	"OPENCODE.local.md",
+	"zcode.md",
+	"zcode.local.md",
+	"ZCode.md",
+	"ZCode.local.md",
+	"ZCODE.md",
+	"ZCODE.local.md",
 }
 
 // Global configuration instance
@@ -160,7 +160,7 @@ func Load(workingDir string, debug bool) (*Config, error) {
 	if cfg.Debug {
 		defaultLevel = slog.LevelDebug
 	}
-	if os.Getenv("OPENCODE_DEV_DEBUG") == "true" {
+	if os.Getenv("ZCODE_DEV_DEBUG") == "true" {
 		loggingFile := fmt.Sprintf("%s/%s", cfg.Data.Directory, "debug.log")
 		messagesPath := fmt.Sprintf("%s/%s", cfg.Data.Directory, "messages")
 
@@ -230,7 +230,7 @@ func configureViper() {
 func setDefaults(debug bool) {
 	viper.SetDefault("data.directory", defaultDataDirectory)
 	viper.SetDefault("contextPaths", defaultContextPaths)
-	viper.SetDefault("tui.theme", "opencode")
+	viper.SetDefault("tui.theme", "zcode")
 	viper.SetDefault("autoCompact", true)
 
 	// Set default shell from environment or fallback to /bin/bash

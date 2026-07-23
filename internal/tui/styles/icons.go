@@ -1,7 +1,7 @@
 package styles
 
 const (
-	OpenCodeIcon string = "⌬"
+	ZCodeIcon string = "⌬"
 
 	CheckIcon    string = "✓"
 	ErrorIcon    string = "✖"

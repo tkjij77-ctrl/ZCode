@@ -4,15 +4,15 @@ import (
 	"github.com/charmbracelet/lipgloss"
 )
 
-// OpenCodeTheme implements the Theme interface with OpenCode brand colors.
+// ZCodeTheme implements the Theme interface with ZCode brand colors.
 // It provides both dark and light variants.
-type OpenCodeTheme struct {
+type ZCodeTheme struct {
 	BaseTheme
 }
 
-// NewOpenCodeTheme creates a new instance of the OpenCode theme.
-func NewOpenCodeTheme() *OpenCodeTheme {
-	// OpenCode color palette
+// NewZCodeTheme creates a new instance of the ZCode theme.
+func NewZCodeTheme() *ZCodeTheme {
+	// ZCode color palette
 	// Dark mode colors
 	darkBackground := "#212121"
 	darkCurrentLine := "#252525"
@@ -45,7 +45,7 @@ func NewOpenCodeTheme() *OpenCodeTheme {
 	lightYellow := "#b0851f"    // Emphasized text
 	lightBorder := "#d3d3d3"    // Border color
 
-	theme := &OpenCodeTheme{}
+	theme := &ZCodeTheme{}
 
 	// Base colors
 	theme.PrimaryColor = lipgloss.AdaptiveColor{
@@ -271,7 +271,7 @@ func NewOpenCodeTheme() *OpenCodeTheme {
 }
 
 func init() {
-	// Register the OpenCode theme with the theme manager
-	RegisterTheme("opencode", NewOpenCodeTheme())
+	// Register the ZCode theme with the theme manager
+	RegisterTheme("zcode", NewZCodeTheme())
 }
 

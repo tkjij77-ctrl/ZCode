@@ -108,7 +108,7 @@
       "type": "object"
     }
   },
-  "description": "Configuration schema for the OpenCode application",
+  "description": "Configuration schema for the ZCode application",
   "properties": {
     "agents": {
       "additionalProperties": {
@@ -238,12 +238,12 @@
         ".cursor/rules/",
         "CLAUDE.md",
         "CLAUDE.local.md",
-        "opencode.md",
-        "opencode.local.md",
-        "OpenCode.md",
-        "OpenCode.local.md",
-        "OPENCODE.md",
-        "OPENCODE.local.md"
+        "zcode.md",
+        "zcode.local.md",
+        "ZCode.md",
+        "ZCode.local.md",
+        "ZCODE.md",
+        "ZCODE.local.md"
       ],
       "description": "Context paths for the application",
       "items": {
@@ -255,7 +255,7 @@
       "description": "Storage configuration",
       "properties": {
         "directory": {
-          "default": ".opencode",
+          "default": ".zcode",
           "description": "Directory where application data is stored",
           "type": "string"
         }
@@ -397,10 +397,10 @@
       "description": "Terminal User Interface configuration",
       "properties": {
         "theme": {
-          "default": "opencode",
+          "default": "zcode",
           "description": "TUI theme name",
           "enum": [
-            "opencode",
+            "zcode",
             "catppuccin",
             "dracula",
             "flexoki",
@@ -420,6 +420,6 @@
       "type": "string"
     }
   },
-  "title": "OpenCode Configuration",
+  "title": "ZCode Configuration",
   "type": "object"
 }

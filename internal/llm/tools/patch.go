@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/diff"
-	"github.com/opencode-ai/opencode/internal/history"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/lsp"
-	"github.com/opencode-ai/opencode/internal/permission"
+	"github.com/zcode-ai/zcode/internal/config"
+	"github.com/zcode-ai/zcode/internal/diff"
+	"github.com/zcode-ai/zcode/internal/history"
+	"github.com/zcode-ai/zcode/internal/logging"
+	"github.com/zcode-ai/zcode/internal/lsp"
+	"github.com/zcode-ai/zcode/internal/permission"
 )
 
 type PatchParams struct {
