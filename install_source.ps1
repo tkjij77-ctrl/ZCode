@@ -29,7 +29,6 @@ try {
     $null = Get-Command git -ErrorAction Stop
 } catch {
     Install-WithWinget "Git.Git" "Git"
-    # Check again after install
     try { $null = Get-Command git -ErrorAction Stop } catch { Write-Host "Please restart PowerShell and try again." -ForegroundColor Yellow; exit 1 }
 }
 
@@ -38,7 +37,6 @@ try {
     $null = Get-Command go -ErrorAction Stop
 } catch {
     Install-WithWinget "GoLang.Go" "Go"
-    # Check again after install
     try { $null = Get-Command go -ErrorAction Stop } catch { Write-Host "Go was installed, but you must close and RESTART PowerShell for the changes to take effect. Then run the command again." -ForegroundColor Yellow; exit 1 }
 }
 
